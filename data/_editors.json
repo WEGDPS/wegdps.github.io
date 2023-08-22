@@ -1,72 +1,12 @@
 [
     {
-        "role": "owner",
-        "name": "Microwaveee",
-        "link": "https://www.youtube.com/channel/UC4BZvLEre3SrihXXL-eItWg"
-    },
-    {
-        "role": "owner",
-        "name": "JustCrust",
-        "link": "#"
-    },
-    {
-        "role": "owner",
-        "name": "Prometheus",
-        "link": "https://www.youtube.com/c/PrometheusAlt"
-    },
-    {
-        "role": "admin",
-        "name": "TravelChimp",
-        "link": "https://youtube.com/channel/UC_iEmvCmkuJWqoRbGM49GOA"
-    },
-    {
-        "role": "seniormod",
-        "name": "SarcasticMuch",
-        "link": "https://www.youtube.com/channel/UCH4iSascx58Bfue2cfpWKJQ"
-    },
-    {
-        "role": "seniormod",
-        "name": "sorrym8",
-        "link": "#"
-    },
-    {
-        "role": "mod",
-        "name": "homegrowntag",
-        "link": "https://www.youtube.com/channel/UCtPsZ68MCked5rgimzzX7Hw"
-    },
-    {
-        "role": "mod",
-        "name": "KylashTheKiller",
-        "link": "https://youtube.com/@KylashTheKiller"
-    },
-    {
-        "role": "mod",
-        "name": "lucap123",
-        "link": "https://www.youtube.com/@lucap123gd8"
-    },
-    {
-        "role": "mod",
-        "name": "srus",
-        "link": "https://www.youtube.com/channel/UCZWCsnRMKs7VSyO094YeyJw"
-    },
-    {
-        "role": "mod",
-        "name": "urban",
-        "link": "https://www.youtube.com/channel/UCV3Y98U07Opb6E9V__mrBNQ"
+        "role": "dev",
+        "name": "O K Z . . .",
+        "link": "https://github.com/okz-spec"
     },
     {
         "role": "dev",
-        "name": "Prometheus",
-        "link": "https://www.youtube.com/c/PrometheusAlt"
-    },
-    {
-        "role": "dev",
-        "name": "Emonadeo",
-        "link": "https://github.com/Emonadeo"
-    },
-    {
-        "role": "dev",
-        "name": "KrisGra",
-        "link": "https://www.youtube.com/channel/UCrB80p9IxnDthH551FpqlwQ"
+        "name": "Mr. Azeronir",
+        "link": "https://www.youtube.com/@Azeronir"
     }
 ]
