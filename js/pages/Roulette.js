@@ -174,7 +174,7 @@ export default {
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    "List is currently broken. Wait until it's fixed to start a roulette."
+                    "Список в настоящее время разбит. Подождите, пока он исправлен, чтобы начать рулетку."
                 );
                 return;
             }
@@ -237,7 +237,7 @@ export default {
             if (
                 this.isActive &&
                 !window.confirm(
-                    "This will overwrite the currently running roulette. Continue?"
+                    "Это изменит текущую рулетку. Продолжить?"
                 )
             ) {
                 return;
