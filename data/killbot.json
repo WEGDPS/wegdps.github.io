@@ -1,0 +1,18 @@
+{
+    "id": 92451969,
+    "name": "Shitty Killbot",
+    "author": "berriez",
+    "creators": [],
+    "verifier": "[WD] Wiktor",
+    "verification": "https://youtu.be/el63QoyMN_E",
+    "percentToQualify": 100,
+    "password": "Free to Copy",
+    "records": [
+        {
+            "user": "Shel",
+            "link": "https://youtu.be/53dzLWPMtOc",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
