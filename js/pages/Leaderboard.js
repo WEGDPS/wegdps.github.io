@@ -59,7 +59,7 @@ export default {
                                 </td>
                             </tr>
                         </table>
-                        <h2 v-if="entry.completed.length > 0">Completed ({{ entry.completed.length }})</h2>
+                        <h2 v-if="entry.completed.length > 0">Завершенный ({{ entry.completed.length }})</h2>
                         <table v-if="entry.completed.length > 0" class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">

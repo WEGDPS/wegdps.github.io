@@ -30,7 +30,7 @@ export default {
                     Рулетка сохраняется автоматический!
                 </p>
                 <form class="save">
-                    <p>Manual Load/Save</p>
+                    <p>Ручная загрузка/сохранение</p>
                     <div class="btns">
                         <Btn @click.native.prevent="onImport">Импорт</Btn>
                         <Btn :disabled="!isActive" @click.native.prevent="onExport">Экспорт</Btn>
