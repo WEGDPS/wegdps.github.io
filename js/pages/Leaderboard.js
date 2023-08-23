@@ -21,7 +21,7 @@ export default {
             <div class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
-                        Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
+                    Список лидеров может быть неправильным, так как следующие уровни не могут быть загружены: {{ err.join(', ') }}
                     </p>
                 </div>
                 <div class="board-container surface">
@@ -45,7 +45,7 @@ export default {
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
-                        <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
+                        <h2 v-if="entry.verified.length > 0">Проверено ({{ entry.verified.length}})</h2>
                         <table v-if="entry.verified.length > 0" class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
