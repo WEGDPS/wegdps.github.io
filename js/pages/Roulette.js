@@ -13,27 +13,27 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar surface">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                  Копия Extreme Demon рулетка от <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
-                        <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Main List</label>
+                        <input type="checkbox" id="main" value="Основной список" v-model="useMainList">
+                        <label for="main">Основной список</label>
                     </div>
                     <div class="check">
-                        <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Extended List</label>
+                        <input type="checkbox" id="extended" value="Расширенный список" v-model="useExtendedList">
+                        <label for="extended">Расширенный список</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    The roulette saves automatically.
+                    Рулетка сохраняется автоматический!
                 </p>
                 <form class="save">
                     <p>Manual Load/Save</p>
                     <div class="btns">
-                        <Btn @click.native.prevent="onImport">Import</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
+                        <Btn @click.native.prevent="onImport">Импорт</Btn>
+                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Экспорт</Btn>
                     </div>
                 </form>
             </div>
