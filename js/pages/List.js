@@ -42,7 +42,7 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
-                            <span class="type-label-lg">Верефицирование</span>
+                            <span class="type-label-lg">Видео с верификацией</span>
                         </button>
                         <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
                             <span class="type-label-lg">Шоукейс</span>
@@ -51,7 +51,7 @@ export default {
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Поинты по завершении</div>
+                            <div class="type-title-sm">Очков за прохождение</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
@@ -60,13 +60,13 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Пароль</div>
-                            <p>{{ level.password || 'Бесплатное копирование' }}</p>
+                            <p>{{ level.password || 'Свободное копирование' }}</p>
                         </li>
                     </ul>
                     <h2>Рекорды</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> или лучше квалифицироваться</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> или лучше квалифицироваться</p>
-                    <p v-else>Этот уровень не принимает новые записи.</p>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> или больше для попадания в рекорды</p>
+                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> или больше для попадания в рекорды</p>
+                    <p v-else>Этот уровень не принимает новые рекорды.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
