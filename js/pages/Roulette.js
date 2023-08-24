@@ -13,21 +13,21 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar surface">
                 <p class="type-label-md" style="color: #aaa">
-                  Копия Extreme Demon рулетка от <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                  Копия Extreme Demon Roulette от <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
-                        <input type="checkbox" id="main" value="Основной список" v-model="useMainList">
-                        <label for="main">Основной список</label>
+                        <input type="checkbox" id="main" value="Основной лист" v-model="useMainList">
+                        <label for="main">Основной лист</label>
                     </div>
                     <div class="check">
-                        <input type="checkbox" id="extended" value="Расширенный список" v-model="useExtendedList">
-                        <label for="extended">Расширенный список</label>
+                        <input type="checkbox" id="extended" value="Расширенный лист" v-model="useExtendedList">
+                        <label for="extended">Расширенный лист</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    Рулетка сохраняется автоматический!
+                    Рулетка сохраняется автоматически!
                 </p>
                 <form class="save">
                     <p>Ручная загрузка/сохранение</p>
