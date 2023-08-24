@@ -103,20 +103,21 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3> Submission Requirements </h3>
-                    <p> When submitting a record, please ensure that you have the following:</p>
-                    <p> - A complete playthrough of the level from 0-100 with no cuts (if you make cuts in your submitted video, include raw footage that doesn't have them) </p>
-                    <p> - A decent amount of previous attempts (A single death at 1% is not sufficient, try to get somewhat far into the level. Everplay records are exempt from this.) </p>
-                    <p> - End stats (The whole box must appear for at least one frame) </p>
-                    <p> - Cheat Indicator (If you are using a mod menu that supports one, like Megahack v7) </p>
-                    <p> - Fps/tps indicator (For mod menus that support one) </p>
-                    <p> - In-game source audio/Clicks (Either is fine, however both are strongly recommended. If you don't have either in your submission video, attach raw footage that does) </p>
-                    <p> Refer to <a href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit#gid=0">this sheet</a> for a complete list of allowed mods.</p>
-                    <p> Please also check for the following:</p>
-                    <p> - Make sure you beat the level displayed on the site (for reference, check the level ID to ensure you're playing the correct level</p>
-                    <p> - Do not use secret routes or bug routes</p>
-                    <p> - Do not use easy modes, only a record of the unmodified level qualifies</p>
-                    <p> - Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level</p>
+                    <h3> Правила </h3>
+                    <p> Когда вы отправляете рекорд убедитесь что соблюдайте эти правила:</p>
+                    <p> - Прохождение должно быть записано на запись. </p>
+                    <p> - Должен быть рауфутаж прохождения. </p>
+                    <p> - В видео должна быть показана статистика на лвле. </p>
+                    <p> - На видео должны быть клики или тапы. </p>
+                    <p> - Должен быть FPS/TPS Counter, CPS Counter, Time(Если есть мх или любое другое мод меню). </p>
+                    <p> - Если есть Megahack или другое мод-меню то в конце прохождение вы должны показать панель чита. </p>
+                    <p> - Рауфутаж должен быть загружен на Gooogle Drive. </p>
+                    <p> - Если видео записано на пк, то должны быть 2 звуковые дорожки(дорожка с кликами и системными звуками). </p>
+                    <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS. </p>
+                    <p> - Не используйте баги, сваг роуты и секрет веи. </p>
+                    <p> - Не присылайте прогресы на облегчённых версиях лвлов. </p>
+                    <p> </p>
+                    <p> All credit goes to The Shitty list. WEGDPS List is not affiliated with The Shitty list. </p>
                 </div>
             </div>
         </main>
