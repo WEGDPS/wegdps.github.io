@@ -8,5 +8,10 @@
         "role": "dev",
         "name": "Mr. Azeronir",
         "link": "https://www.youtube.com/@Azeronir"
+    }, 
+    {
+        "role": "admin",
+        "name": "Ashio",
+        "link": "https://www.youtube.com/@wecastly"
     }
 ]
