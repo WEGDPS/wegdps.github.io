@@ -9,5 +9,11 @@
     "percentToQualify": 100,
     "password": "Нету пароля",
     "records": [
+        {
+            "user": "Ashio",
+            "link": "https://www.youtube.com/watch?v=IFKOntLw_Co",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
