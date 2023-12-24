@@ -8,6 +8,12 @@
     "showcase": "https://youtu.be/CS_LNBXYoHc",
     "percentToQualify": 65,
     "password": "Нету пароля",
-    "records": [
+    "records": [  
+        {
+        "user": "Aviuss",
+        "link": "https://youtu.be/CS_LNBXYoHc",
+        "percent": 100,
+        "hz": 360
+        }
     ]
 }
