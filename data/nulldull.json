@@ -9,5 +9,11 @@
     "percentToQualify": 65,
     "password": "000999",
     "records": [
+        {
+        "user": "Tami",
+        "link": "https://youtu.be/CS_LNBXYoHc",
+        "percent": 100,
+        "hz": 360
+        }
     ]
 }
