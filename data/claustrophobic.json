@@ -8,6 +8,12 @@
     "showcase": "https://www.youtube.com/watch?v=mCSo5XkLUaA",
     "percentToQualify": 65,
     "password": "Не разрешен для копирования",
-    "records": [
+    "records": [        
+        {
+        "user": "Tami",
+        "link": "https://youtu.be/e_aOQjilxVg",
+        "percent": 100,
+        "hz": 360
+        }
     ]
 }
