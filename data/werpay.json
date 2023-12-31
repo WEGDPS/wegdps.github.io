@@ -9,5 +9,11 @@
     "percentToQualify": 65,
     "password": "Нету пароля",
     "records": [
+        {
+            "user": "Tami",
+            "link": "https://youtu.be/q_OQJVqP_W8",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
