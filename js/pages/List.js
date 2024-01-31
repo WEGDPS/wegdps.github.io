@@ -114,7 +114,7 @@ export default {
                     <p> - Рауфутаж должен быть загружен на Gooogle Drive. </p>
                     <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS. </p>
                     <p> - Не используйте баги, сваг роуты и секрет веи. </p>
-                    <p> - Не присылайте прогресы на облегчённых версиях лвлов. </p>
+                    <p> - Не присылайте прогреcсы на облегчённых версиях лвлов. </p>
                     <p> </p>
                     <p> All credit goes to The Shitty list. WEGDPS List is not affiliated with The Shitty list. </p>
                 </div>
