@@ -1,0 +1,19 @@
+{
+    "id": 7089994,
+    "name": "TheEasyGame",
+    "author": "4ushka",
+    "creators": ["4ushka"],
+    "verifier": "Aviuss",
+    "verification": "https://youtu.be/IjWI2P_sxa0?si=BzW179FdPGXWYzmF",
+    "showcase": "https://youtu.be/IjWI2P_sxa0?si=BzW179FdPGXWYzmF",
+    "percentToQualify": 65,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "Tami",
+            "link": "https://youtu.be/C5ZFHlnd6gU",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}

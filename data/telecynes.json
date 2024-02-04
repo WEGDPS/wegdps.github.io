@@ -1,0 +1,19 @@
+{
+    "id": 7089260,
+    "name": "TheEasyGame",
+    "author": "Minervvvva",
+    "creators": ["Minervvvva"],
+    "verifier": "Tami",
+    "verification": "https://youtu.be/UAmJD1MnGkY",
+    "showcase": "https://youtu.be/UAmJD1MnGkY",
+    "percentToQualify": 65,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "Aviuss",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
