@@ -9,5 +9,11 @@
     "percentToQualify": 65,
     "password": "220823",
     "records": [
+        {
+            "user": "Aviuss",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 67,
+            "hz": 360
+        }
     ]
 }
