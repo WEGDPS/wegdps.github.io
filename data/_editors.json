@@ -1,10 +1,12 @@
 [
     {
-        "role": "Launa",
+        "role": "owner",
+        "name": "Launa",
         "link": "https://www.youtube.com/channel/UCUaCfafIsLr_PMUXIRPhF3Q"
     },
     {
-        "role": "Aviuss",
+        "role": "owner",
+        "name": "Aviuss",
         "link": "https://www.youtube.com/@aviuss."
     },
     {
