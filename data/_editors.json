@@ -1,8 +1,21 @@
 [
     {
+        "role": "Launa",
+        "link": "https://www.youtube.com/channel/UCUaCfafIsLr_PMUXIRPhF3Q"
+    },
+    {
+        "role": "Aviuss",
+        "link": "https://www.youtube.com/@aviuss."
+    },
+    {
         "role": "dev",
         "name": "O K Z . . .",
         "link": "https://github.com/okz-spec"
+    },
+    {
+        "role": "dev",
+        "name": "Azeronir",
+        "link": "https://www.youtube.com/@Azeronir"
     },
     {
         "role": "admin",

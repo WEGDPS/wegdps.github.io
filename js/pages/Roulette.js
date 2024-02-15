@@ -1,4 +1,4 @@
-import { fetchList } from "../content.js";
+import { fetchList, fetchCHList, fetchPLList } from "../content.js";
 import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from "../util.js";
 
 import Spinner from "../components/Spinner.js";
@@ -17,12 +17,16 @@ export default {
                 </p>
                 <form class="options">
                     <div class="check">
-                        <input type="checkbox" id="main" value="Основной лист" v-model="useMainList">
-                        <label for="main">Основной лист</label>
+                        <input type="checkbox" id="main" value="Демон лист" v-model="useMainList">
+                        <label for="main">Демон лист</label>
                     </div>
                     <div class="check">
-                        <input type="checkbox" id="extended" value="Расширенный лист" v-model="useExtendedList">
-                        <label for="extended">Расширенный лист</label>
+                        <input type="checkbox" id="extended" value="Челлендж лист" v-model="useExtendedList">
+                        <label for="extended">Челлендж лист</label>
+                    </div>
+                    <div class="check">
+                    <input type="checkbox" id="platformer" value="Платформер лист" v-model="useExtendedList">
+                    <label for="extended">Платформер лист</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
@@ -107,7 +111,8 @@ export default {
         givenUp: false,
         showRemaining: false,
         useMainList: true,
-        useExtendedList: true,
+        useChallengeList: true,
+        usePlatformerList: true,
         toasts: [],
         fileInput: undefined,
     }),
@@ -163,13 +168,15 @@ export default {
                 return;
             }
 
-            if (!this.useMainList && !this.useExtendedList) {
+            if (!this.useMainList && !this.useChallengeList && !this.usePlatformerList) {
                 return;
             }
 
             this.loading = true;
 
             const fullList = await fetchList();
+            const fullCHList = await fetchCHList();
+            const fullPLList = await fetchPLList();
 
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
@@ -185,10 +192,25 @@ export default {
                 name: lvl.name,
                 video: lvl.verification,
             }));
+            const fullCHListMapped = fullCHList.map(([lvl, _], i) => ({
+                rank: i + 1,
+                id: lvl.id,
+                name: lvl.name,
+                video: lvl.verification,
+            }));
+            const fullPLListMapped = fullPLList.map(([lvl, _], i) => ({
+                rank: i + 1,
+                id: lvl.id,
+                name: lvl.name,
+                video: lvl.verification,
+            }));
             const list = [];
-            if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
-            if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(75, 150));
+            if (this.useMainList) list.push(...fullListMapped);
+            if (this.useChallengeList) {
+                list.push(...fullCHListMapped);
+            }
+            if (this.usePlatformerList) {
+                list.push(...fullPLListMapped)
             }
 
             // random 100 levels
@@ -286,7 +308,7 @@ export default {
             );
             const a = document.createElement("a");
             a.href = URL.createObjectURL(file);
-            a.download = "tsl_roulette";
+            a.download = "welist_roulette";
             a.click();
             URL.revokeObjectURL(a.href);
         },
