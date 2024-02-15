@@ -21,12 +21,12 @@ export default {
                         <label for="main">Демон лист</label>
                     </div>
                     <div class="check">
-                        <input type="checkbox" id="extended" value="Челлендж лист" v-model="useExtendedList">
-                        <label for="extended">Челлендж лист</label>
+                        <input type="checkbox" id="extended" value="Челлендж лист" v-model="useChallengeList">
+                        <label for="challenge">Челлендж лист</label>
                     </div>
                     <div class="check">
-                    <input type="checkbox" id="platformer" value="Платформер лист" v-model="useExtendedList">
-                    <label for="extended">Платформер лист</label>
+                    <input type="checkbox" id="platformer" value="Платформер лист" v-model="usePlatformerList">
+                    <label for="platformer">Платформер лист</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
