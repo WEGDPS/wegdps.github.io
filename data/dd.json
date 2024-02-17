@@ -1,0 +1,19 @@
+{
+    "id": 7090371,
+    "name": "Cancerstep",
+    "author": "SpaceKZ",
+    "creators": ["SpaceKZ"],
+    "verifier": "SpaceKZ",
+    "verification": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+    "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+    "percentToQualify": 45,
+    "password": "Нету Пароля",
+    "records": [ 
+        {
+            "user": "Aviuss",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
