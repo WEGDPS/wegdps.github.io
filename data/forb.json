@@ -1,0 +1,19 @@
+{
+    "id": 7089478,
+    "name": "Cancerstep",
+    "author": "4ushka",
+    "creators": ["4ushka", "Aviuss"],
+    "verifier": "Aviuss",
+    "verification": "https://youtu.be/AcZqi7NaJj4",
+    "showcase": "https://youtu.be/wmRNBfU-WtM",
+    "percentToQualify": 47,
+    "password": "911911",
+    "records": [        
+        {
+        "user": "Tami",
+        "link": "https://www.youtube.com/watch?v=OEStibeE5LU&t=90s",
+        "percent": 100,
+        "hz": 360
+        }
+    ]
+}
