@@ -1,0 +1,19 @@
+{
+    "id": 7089970,
+    "name": "ive got the whole bakery",
+    "author": "Aviuss",
+    "creators": ["Aviuss"],
+    "verifier": "Aviuss",
+    "verification": "https://youtu.be/NnK2ZObH3AM",
+    "showcase": "https://youtu.be/CS_LNBXYoHc",
+    "percentToQualify": 64,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "Tami",
+            "link": "https://youtu.be/q_OQJVqP_W8",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
