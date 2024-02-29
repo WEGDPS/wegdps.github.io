@@ -1,19 +1,14 @@
 {
-    "id": 7089478,
-    "name": "Cancerstep",
+    "id": 7090524,
+    "name": "Forbearence",
     "author": "4ushka",
-    "creators": ["4ushka", "Aviuss"],
+    "creators": ["4ushka"],
     "verifier": "Aviuss",
     "verification": "https://youtu.be/AcZqi7NaJj4",
-    "showcase": "https://youtu.be/wmRNBfU-WtM",
-    "percentToQualify": 47,
-    "password": "911911",
+    "showcase": "https://youtu.be/CS_LNBXYoHc",
+    "percentToQualify": 51,
+    "password": "Нету пароля",
     "records": [        
-        {
-        "user": "Tami",
-        "link": "https://www.youtube.com/watch?v=OEStibeE5LU&t=90s",
-        "percent": 100,
-        "hz": 360
-        }
+
     ]
 }
