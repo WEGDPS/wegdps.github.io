@@ -1,6 +1,6 @@
 {
     "id": 7090174,
-    "name": "Disaster Is Near",
+    "name": "disaster is near",
     "author": "MAMYTRAXAL",
     "creators": ["MAMYTRAXAL"],
     "verifier": "MAMYTRAXAL",
@@ -9,5 +9,11 @@
     "percentToQualify": 100,
     "password": "Нету пароля",
     "records": [
+        {
+            "user": "Tami",
+            "link": "https://youtu.be/1EbaL9GXSjo",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
