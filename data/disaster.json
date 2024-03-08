@@ -10,8 +10,26 @@
     "password": "Нету пароля",
     "records": [
         {
+            "user": "4ushka",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "Tami",
             "link": "https://youtu.be/1EbaL9GXSjo",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "kw3qlly",
+            "link": "https://www.youtube.com/watch?v=xgRoDwhS6ek",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Aviuss",
+            "link": "https://youtu.be/xTBZjURu8j8",
             "percent": 100,
             "hz": 360
         }
