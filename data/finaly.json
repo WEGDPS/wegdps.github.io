@@ -1,0 +1,19 @@
+{
+    "id": 7090663,
+    "name": "Finaly",
+    "author": "Future",
+    "creators": ["Future"],
+    "verifier": "NICEPEEK",
+    "verification": "https://youtu.be/cyq6bAs_JSE",
+    "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+    "percentToQualify": 66,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "Aviuss",
+            "link": "https://youtu.be/CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 360
+            }
+    ]
+}
