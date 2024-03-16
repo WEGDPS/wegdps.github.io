@@ -1,0 +1,20 @@
+{
+    "id": 7090706,
+    "name": "VSA",
+    "author": "NICEPEEK",
+    "creators": ["NICEPEEK"],
+    "verifier": "NICEPEEK",
+    "verification": "https://www.youtube.com/watch?v=pkml7a50vZs",
+    "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+    "percentToQualify": 61,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "Tami",
+            "link": "https://youtu.be/jQLvNKJI8R4",
+            "percent": 100,
+            "hz": 360
+        }
+
+    ]
+}
