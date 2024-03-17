@@ -2,31 +2,16 @@
     {
         "role": "owner",
         "name": "Comp",
-        "link": "https://www.youtube.com/channel/UCUaCfafIsLr_PMUXIRPhF3Q"
+        "link": ""
     },
     {
         "role": "owner",
-        "name": "Aviuss",
-        "link": "https://www.youtube.com/@aviuss."
+        "name": "Launa",
+        "link": ""
     },    
     {
-        "role": "owner",
-        "name": "Ayato",
+        "role": "dev",
+        "name": "sooga07",
         "link": "https://youtube.com/@ayatogmd?si=RKBGod2QPOiOlb3U"
-    },
-    {
-        "role": "dev",
-        "name": "O K Z . . .",
-        "link": "https://github.com/okz-spec"
-    },
-    {
-        "role": "dev",
-        "name": "Azeronir",
-        "link": "https://www.youtube.com/@Azeronir"
-    },
-    {
-        "role": "admin",
-        "name": "Tami",
-        "link": "https://www.youtube.com/@tami2609"
     }
 ]
