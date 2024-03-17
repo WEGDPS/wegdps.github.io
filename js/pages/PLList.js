@@ -60,7 +60,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Пароль</div>
-                            <p>{{ level.password || 'Свободное копирование' }}</p>
+                            <p>{{ level.password || 'Free to copy' }}</p>
                         </li>
                     </ul>
                     <h2>Рекорды</h2>
@@ -79,7 +79,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}ГЦ</p>
+                                <p>{{ record.hz }}hz</p>
                             </td>
                         </tr>
                     </table>
