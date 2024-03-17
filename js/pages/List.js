@@ -111,12 +111,12 @@ export default {
                     <p> - На видео должны быть клики или тапы. </p>
                     <p> - Если есть Megahack или другое мод меню, должен быть FPS/TPS Counter (обязательно), Cheat Indicator (желательно), Clock (желательно). </p>
                     <p> - Если есть Megahack или другое мод-меню то в конце прохождение вы должны показать панель чита. </p>
-                    <p> - Рауфутаж должен быть загружен на Google Drive или Youtube. </p>
-                    <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS на 2.1, на 2.2 ограничение FPS/TPS Bypass отсутствует. </p>
+                    <p> - Рауфутаж должен быть загружен на Google Drive. </p>
+                    <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS. </p>
                     <p> - Не используйте баги, сваг роуты и секрет веи. </p>
                     <p> - Не присылайте прогреcсы на облегчённых версиях лвлов. </p>
                     <p> </p>
-                    <p> All credit goes to The Shitty list. WEGDPS List is not affiliated with The Shitty list. </p>
+                    <p> All credit goes to The Shitty list & WEGDPS List. GGDL List is not affiliated with The Shitty list & WEGDPS List. </p>
                 </div>
             </div>
         </main>
