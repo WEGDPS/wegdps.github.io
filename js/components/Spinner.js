@@ -1,3 +1,3 @@
 export default {
-    template: `<p class="spinner">Загрузка страницы...</p>`,
+    template: `<p class="spinner">Page loading...</p>`,
 };

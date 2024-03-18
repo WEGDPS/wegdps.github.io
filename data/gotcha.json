@@ -1,0 +1,19 @@
+{
+    "id": 88,
+    "name": "Gotcha",
+    "author": "CoolGamer",
+    "creators": ["CoolGamer"],
+    "verifier": "imasssaya",
+    "verification": "https://youtu.be/8OvDXCgYvzY?si=jFfaESJerSWsM4ZL",
+    "showcase": "https://youtu.be/y6aMUzRJXuI?si=t7HbBYc4Y6kQ5Yz7",
+    "percentToQualify": 60,
+    "password": "null",
+    "records": [
+        {
+            "user": "Aisho",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}

@@ -60,7 +60,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Пароль</div>
-                            <p>{{ level.password || 'Свободное копирование' }}</p>
+                            <p>{{ level.password || 'Free to copy' }}</p>
                         </li>
                     </ul>
                     <h2>Рекорды</h2>
@@ -79,7 +79,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}ГЦ</p>
+                                <p>{{ record.hz }}hz</p>
                             </td>
                         </tr>
                     </table>
@@ -109,14 +109,19 @@ export default {
                     <p> - Должен быть рауфутаж прохождения. </p>
                     <p> - В видео должен быть показан эндскрин. </p>
                     <p> - На видео должны быть клики или тапы. </p>
-                    <p> - Если есть Megahack или другое мод меню, должен быть FPS/TPS Counter (обязательно), Cheat Indicator (желательно), Clock (желательно). </p>
-                    <p> - Если есть Megahack или другое мод-меню то в конце прохождение вы должны показать панель чита. </p>
-                    <p> - Рауфутаж должен быть загружен на Google Drive или Youtube. </p>
-                    <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS на 2.1, на 2.2 ограничение FPS/TPS Bypass отсутствует. </p>
+                    <p> - Если есть Megahack или другое мод меню, должен быть FPS/TPS Counter (обязательно), Cheat Indicator (обязательно), Clock (обязательно). </p>
+                    <p> - Рауфутаж должен быть загружен на Google Drive. </p>
+                    <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS. </p>
                     <p> - Не используйте баги, сваг роуты и секрет веи. </p>
                     <p> - Не присылайте прогреcсы на облегчённых версиях лвлов. </p>
+                    <p> - Должна присутствовать запись в 2 аудиодорожки. </p>
+                    <p> - Сделав багфикс не предупредив об этом администраторов будет считаться как специальный нёрф уровня, что приведет к последующему бану в листе. </p>
+                    <p> - LDM и ULDM версии уровней одобряются если это не влияет на сложность уровня, обнаружение модераторами нерфов в ваших версиях приведет к бану, даже если вы о них не знали. </p>
+                    <p> - Текстур-Паки которые могут облегчить игру, к примеру отображать хитбоксы режимов игры, препятствий и так далее НЕ одобрены листом. </p>
+                    <p> - 2 Player уровни не вносятся. </p>
+                    <p> - Альтернативные или твинк-аккаунты запрещены. </p>
                     <p> </p>
-                    <p> All credit goes to The Shitty list. WEGDPS List is not affiliated with The Shitty list. </p>
+                    <p> All credit goes to The Shitty list & WEGDPS List. GGDL List is not affiliated with The Shitty list & WEGDPS List. </p>
                 </div>
             </div>
         </main>
