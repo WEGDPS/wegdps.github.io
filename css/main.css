@@ -3,8 +3,8 @@
     --color-on-background: black;
     --color-background-hover: #eee;
     --color-on-background-hover: black;
-    --color-primary: #3ca527;
-    --color-primary-disabled: #238518;
+    --color-primary: #0084ff;
+    --color-primary-disabled: #008cff;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -16,8 +16,8 @@
     --color-on-background: white;
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #3ca527;
-    --color-primary-disabled: #238518;
+    --color-primary: #00c3ff;
+    --color-primary-disabled: #0328ce;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -25,11 +25,11 @@
 
 .shitty.root {
     --color-background: rgba(0, 0, 0, 0.7);
-    --color-on-background: white;
+    --color-on-background: rgb(255, 255, 255);
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #3ca527;
-    --color-primary-disabled: #238518;
+    --color-primary: #0400fa;
+    --color-primary-disabled: #0003b9;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
