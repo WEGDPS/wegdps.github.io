@@ -9,5 +9,12 @@
     "percentToQualify": 46,
     "password": "Нету пароля",
     "records": [
+        {
+            "user": "Aviuss",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 360
+        }
+
     ]
 }
