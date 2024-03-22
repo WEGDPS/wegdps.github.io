@@ -34,8 +34,14 @@
             "hz": 360
         },
         {
-            "user": "VipBip1",
-            "link": "https://www.youtube.com/watch?v=mHHi06AiwiA",
+            "user": "Vipbip1",
+            "link": "https://youtu.be/mHHi06AiwiA?feature=shared",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "DanilXGames",
+            "link": "https://www.youtube.com/watch?v=qPAgWfKxBO0",
             "percent": 100,
             "hz": 360
         }
