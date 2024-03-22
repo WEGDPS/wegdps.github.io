@@ -11,7 +11,13 @@
     "records": [        
         {
         "user": "Tami",
-        "link": "https://www.youtube.com/watch?v=OEStibeE5LU&t=90s",
+        "link": "https://www.youtube.com/watch?v=OEStibeE5LU&t",
+        "percent": 100,
+        "hz": 360
+        },
+        {
+        "user": "NICEPEEK",
+        "link": "https://youtu.be/CJaChbPMFJo",
         "percent": 100,
         "hz": 360
         }
