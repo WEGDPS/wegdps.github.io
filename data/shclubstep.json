@@ -9,6 +9,11 @@
     "percentToQualify": 42,
     "password": "Нет пароля",
     "records": [
-
+        {
+            "user": "NICEPEEK",
+            "link": "https://youtu.be/SWf4dvapf-c",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
