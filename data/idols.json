@@ -28,10 +28,16 @@
         "hz": 360
         },
         {
-            "user": "NICEPEEK",
-            "link": "https://www.youtube.com/watch?v=zUS84YMB0V4",
-            "percent": 100,
-            "hz": 360
-            }
+        "user": "NICEPEEK",
+        "link": "https://www.youtube.com/watch?v=zUS84YMB0V4",
+        "percent": 100,
+        "hz": 360
+        },
+        {
+        "user": "CreatMin",
+        "link": "https://youtu.be/x_qaJ_UosHk?si=VlU6krY7aY_DI8ek",
+        "percent": 100,
+        "hz": 60
+        }
     ]
 }
