@@ -35,6 +35,7 @@ export async function fetchList() {
         return null;
     }
 }
+
 export async function fetchCHList() {
     const listResult = await fetch(`${dir}/_chlist.json`);
     try {
@@ -63,9 +64,9 @@ export async function fetchCHList() {
     } catch {
         console.error(`Failed to load list.`);
         return null;
-    
     }
 }
+
 export async function fetchPLList() {
     const listResult = await fetch(`${dir}/_pllist.json`);
     try {
@@ -94,7 +95,6 @@ export async function fetchPLList() {
     } catch {
         console.error(`Failed to load list.`);
         return null;
-    
     }
 }
 

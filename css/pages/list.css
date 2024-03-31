@@ -60,6 +60,7 @@
 }
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
+    border-radius: 1em;
 }
 .page-list .level-container .level .stats {
     display: flex;

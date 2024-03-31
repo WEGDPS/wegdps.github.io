@@ -79,7 +79,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}FPS</p>
+                                <p>{{ record.hz }}ГЦ</p>
                             </td>
                         </tr>
                     </table>
@@ -103,20 +103,11 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3> Правила </h3>
+                    <h3> Правила платформер листа </h3>
                     <p> Когда вы отправляете рекорд убедитесь что соблюдайте эти правила:</p>
-                    <p> - Прохождение должно быть записано на запись. </p>
-                    <p> - Должен быть рауфутаж прохождения. </p>
-                    <p> - В видео должен быть показан эндскрин. </p>
-                    <p> - На видео должны быть клики или тапы. </p>
-                    <p> - Если есть Megahack или другое мод меню, должен быть FPS/TPS Counter (обязательно), Cheat Indicator (желательно), Clock (желательно). </p>
-                    <p> - Если есть Megahack или другое мод-меню то в конце прохождение вы должны показать панель чита. </p>
-                    <p> - Рауфутаж должен быть загружен на Google Drive или Youtube. </p>
-                    <p> - Ограничение FPS/TPS Bypass - 360 FPS/TPS на 2.1, на 2.2 ограничение FPS/TPS Bypass отсутствует. </p>
-                    <p> - Не используйте баги, сваг роуты и секрет веи. </p>
-                    <p> - Не присылайте прогреcсы на облегчённых версиях лвлов. </p>
+                    <p> - TODO: тут должны быть правила пл. листа </p>
                     <p> </p>
-                    <p> All credit goes to The Shitty list. WEGDPS List is not affiliated with The Shitty list. </p>
+                    <p> All credit goes to The Shitty list. WEList is not affiliated with The Shitty list. </p>
                 </div>
             </div>
         </main>

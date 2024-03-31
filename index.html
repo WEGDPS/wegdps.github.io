@@ -8,8 +8,8 @@
     <meta property="og:description"
         content="Лист сложнейших уровней на WEGDPS." />
     <meta property="og:url" content="https://wegdps.github.io" />
-    <meta property="og:image" content="/we_icon.png" />
-    <title>WEGDPS List</title>
+    <meta property="og:image" content="/welistico.png" />
+    <title>WEList</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,26 +23,37 @@
     <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
     <link rel="stylesheet" type="text/css" href="/css/components/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="/css/components/select.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pages/auth.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
     <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
     <script type="module" src="/js/main.js"></script>
+    <script src="/js/components/select.js"></script>
 </head>
 <body id="app">
     <div class="root" :class="{ dark: store.dark }">
         <header class="surface">
             <div class="logo">
-                <img src="/WEGDPSLIST.png" alt="logo" />
+                <img src="/welistico.png" alt="logo" />
             </div>
             <nav class="nav">
-                <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">Демон лист</span>
-                </router-link>
-                <router-link class="nav__tab" to="/ch">
-                    <span class="type-label-lg">Челлендж лист</span>
-                </router-link>
-                <router-link class="nav__tab" to="/pl">
-                    <span class="type-label-lg">Платформер лист</span>
-                </router-link>
+                <div class="droplist">
+                    <div class="droplistbutton">
+                        <span class="type-label-lg">Выбрать лист</span>
+                    </div>
+                    <div class="droplist-content">
+                        <router-link class="droplist-link" to="/">
+                            <span class="type-label-lg">Демон лист</span>
+                        </router-link>
+                        <router-link class="droplist-link2" to="/ch">
+                            <span class="type-label-lg">Челлендж лист</span>
+                        </router-link>
+                        <router-link class="droplist-link2" to="/pl">
+                            <span class="type-label-lg">Платформер лист</span>
+                        </router-link>
+                    </div>
+                </div>
                 <router-link class="nav__tab" to="/leaderboard">
                     <span class="type-label-lg">Таблица лидеров</span>
                 </router-link>

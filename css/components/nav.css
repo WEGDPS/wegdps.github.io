@@ -57,23 +57,3 @@
 .nav .nav__actions .nav__cta:hover:not(:active) {
     transform: translateY(-2px);
 }
-
-/* Shitty */
-
-.shity .nav .nav__tab.router-link-active {
-    border-color: transparent;
-    color: orange;
-}
-
-.shitty .nav .nav__tab:hover {
-    border-color: transparent;
-    color: orange;
-}
-
-.shitty .nav .nav__actions .nav__cta {
-    padding: 0.5rem;
-    background-color: #ccc;
-    color: black;
-    border-radius: 0;
-    border: 4px outset #eee;
-}

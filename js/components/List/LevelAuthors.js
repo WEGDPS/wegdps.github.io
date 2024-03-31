@@ -14,7 +14,7 @@ export default {
         },
     },
     template: `
-        <div class="level-authors"> 
+        <div class="level-authors">
             <template v-if="selfVerified">
                 <div class="type-title-sm">Создатель & Верификатор</div>
                 <p class="type-body">
@@ -50,6 +50,7 @@ export default {
             </p>
         </div>
     `,
+
     computed: {
         selfVerified() {
             return this.author === this.verifier && this.creators.length === 0;

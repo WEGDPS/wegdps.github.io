@@ -1,4 +1,4 @@
-import { fetchList, fetchCHList, fetchPLList } from "../content.js";
+import { fetchList, fetchCHList } from "../content.js";
 import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from "../util.js";
 
 import Spinner from "../components/Spinner.js";
@@ -21,12 +21,8 @@ export default {
                         <label for="main">Демон лист</label>
                     </div>
                     <div class="check">
-                        <input type="checkbox" id="extended" value="Челлендж лист" v-model="useChallengeList">
+                        <input type="checkbox" id="challenge" value="Челлендж лист" v-model="useChallengeList">
                         <label for="challenge">Челлендж лист</label>
-                    </div>
-                    <div class="check">
-                    <input type="checkbox" id="platformer" value="Платформер лист" v-model="usePlatformerList">
-                    <label for="platformer">Платформер лист</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Старт' : 'Перезапуск'}}</Btn>
                 </form>
@@ -112,7 +108,6 @@ export default {
         showRemaining: false,
         useMainList: true,
         useChallengeList: true,
-        usePlatformerList: true,
         toasts: [],
         fileInput: undefined,
     }),
@@ -168,7 +163,7 @@ export default {
                 return;
             }
 
-            if (!this.useMainList && !this.useChallengeList && !this.usePlatformerList) {
+            if (!this.useMainList && !this.useChallengeList) {
                 return;
             }
 
@@ -176,12 +171,11 @@ export default {
 
             const fullList = await fetchList();
             const fullCHList = await fetchCHList();
-            const fullPLList = await fetchPLList();
 
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    "Список в настоящее время разбит. Подождите, пока он исправлен, чтобы начать рулетку."
+                    "Лист в настоящее время раскуривает марихуану. Подождите, пока он закончит чтобы начать рулетку."
                 );
                 return;
             }
@@ -198,19 +192,10 @@ export default {
                 name: lvl.name,
                 video: lvl.verification,
             }));
-            const fullPLListMapped = fullPLList.map(([lvl, _], i) => ({
-                rank: i + 1,
-                id: lvl.id,
-                name: lvl.name,
-                video: lvl.verification,
-            }));
             const list = [];
             if (this.useMainList) list.push(...fullListMapped);
             if (this.useChallengeList) {
                 list.push(...fullCHListMapped);
-            }
-            if (this.usePlatformerList) {
-                list.push(...fullPLListMapped)
             }
 
             // random 100 levels

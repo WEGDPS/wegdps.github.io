@@ -5,24 +5,14 @@
         "link": "https://www.youtube.com/channel/UCUaCfafIsLr_PMUXIRPhF3Q"
     },
     {
-        "role": "owner",
-        "name": "Aviuss",
-        "link": "https://www.youtube.com/@aviuss."
-    },    
-    {
-        "role": "owner",
-        "name": "Ayato",
-        "link": "https://youtube.com/@ayatogmd?si=RKBGod2QPOiOlb3U"
+        "role": "dev",
+        "name": "Azeronir",
+        "link": "https://www.youtube.com/@Azeronir"
     },
     {
         "role": "dev",
         "name": "O K Z . . .",
         "link": "https://github.com/okz-spec"
-    },
-    {
-        "role": "dev",
-        "name": "Azeronir",
-        "link": "https://www.youtube.com/@Azeronir"
     },
     {
         "role": "admin",

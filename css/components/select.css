@@ -1,0 +1,73 @@
+/* (azeronir) Дальше идёт моя шедевростилизация которая работает чисто на божьей помощи. Работает - да и хуй с ним. */
+
+.droplist {
+    padding-top: 0.62em;
+    position: relative;
+    display: inline-block;
+}
+
+.droplistbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
+}
+.droplist .type-label-lg {
+    color: #6340fd;
+    align-items: center;
+}
+
+.droplist-content {
+    overflow: hidden;
+    margin-top: 0.5em;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px 16px;
+    z-index: 1;
+}
+  
+.droplist:hover .droplist-content {
+    display: block;
+}
+
+.droplist-link {
+    background-color: rgb(255, 255, 255);
+    height: 2.5em;
+    width: 100%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.droplist-link2 {
+    background-color: rgb(255, 255, 255);
+    height: 2.5em;
+    width: 100%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2em;
+}
+
+.droplist-link.router-link-active {
+    background-color: rgb(199, 199, 199);
+}
+.droplist-link2.router-link-active {
+    background-color: rgb(199, 199, 199);
+}
+
+.droplist-link:hover {
+    background-color: rgb(219, 219, 219);
+}
+.droplist-link2:hover {
+    background-color: rgb(219, 219, 219);
+}
