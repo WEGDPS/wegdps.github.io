@@ -107,8 +107,3 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
-
-.why {
-    border-radius: 999999px;
-    filter: invert();
-}
