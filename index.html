@@ -33,53 +33,7 @@
 </head>
 <body id="app">
     <div class="root" :class="{ dark: store.dark }">
-        <header class="surface">
-            <div class="logo">
-                <img src="/welistico.png" alt="logo" />
-            </div>
-            <nav class="nav">
-                <div class="droplist">
-                    <div class="droplistbutton">
-                        <span class="type-label-lg">Выбрать лист</span>
-                    </div>
-                    <div class="droplist-content">
-                        <router-link class="droplist-link" to="/">
-                            <span class="type-label-lg">Демон лист</span>
-                        </router-link>
-                        <router-link class="droplist-link2" to="/ch">
-                            <span class="type-label-lg">Челлендж лист</span>
-                        </router-link>
-                        <router-link class="droplist-link2" to="/pl">
-                            <span class="type-label-lg">Платформер лист</span>
-                        </router-link>
-                    </div>
-                </div>
-                <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Таблица лидеров</span>
-                </router-link>
-                <router-link class="nav__tab" to="/roulette">
-                    <span class="type-label-lg">Рулетка</span>
-                </router-link>
-                <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    </button>
-                    <a class="nav__icon" href="https://discord.gg/dxCVJB6rt6">
-                        <img src="/assets/discord.svg" alt="Discord Logo" />
-                    </a>
-                    <a class="nav__cta type-label-lg"
-                        href="https://forms.gle/uCv88TE9wqfYN6kL8"
-                        target="_blank">Отправить рекорд?</a>
-                </div>
-            </nav>
-        </header>
-        <router-view></router-view>
+        <img src="/assets/why.png" alt="why" class="why">
     </div>
 </body>
 
