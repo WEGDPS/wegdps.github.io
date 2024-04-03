@@ -106,7 +106,7 @@ export default {
                     <h3> Правила </h3>
                     <p> Когда вы отправляете рекорд убедитесь что соблюдайте эти правила:</p>
                     <p> - Прохождение должно быть записано на запись. </p>
-                    <p> - Должен быть рауфутаж прохождения. </p>
+                    <p> - Должна быть сырая запись (Рау футаж) прохождения. </p>
                     <p> - В видео должен быть показан эндскрин. </p>
                     <p> - На видео должны быть клики или тапы. </p>
                     <p> - Если есть Megahack или другое мод меню, должен быть FPS/TPS Counter (обязательно), Cheat Indicator (обязательно), Clock (обязательно). </p>
@@ -121,7 +121,7 @@ export default {
                     <p> - 2 Player уровни не вносятся. </p>
                     <p> - Альтернативные или твинк-аккаунты запрещены. </p>
                     <p> </p>
-                    <p> All credit goes to The Shitty list & WEGDPS List. GGDL List is not affiliated with The Shitty list & WEGDPS List. </p>
+                    <p> All credit goes to The Shitty list & WEGDPS List. GGDL is not affiliated with The Shitty list & WEGDPS List. </p>
                 </div>
             </div>
         </main>

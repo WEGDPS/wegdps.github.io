@@ -1,0 +1,19 @@
+{
+    "id": 614,
+    "name": "Tesla Dynamix",
+    "author": "DanzeR",
+    "creators": ["DanzeR"],
+    "verifier": "imasssaya",
+    "verification": "https://youtu.be/KbauWoXRg3w?si=J_QbGTCJjwmP3MNG",
+    "showcase": "https://youtu.be/RMqZ-ZNcnog",
+    "percentToQualify": 60,
+    "password": "No Copy",
+    "records": [
+        {
+            "user": "HoppyGD",
+            "link": "https://youtu.be/dZV23GuokdE",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 401,
+    "name": "Infinity Attempts",
+    "author": "CoolGamer",
+    "creators": ["CoolGamer"],
+    "verifier": "CoolGamer",
+    "verification": "https://drive.google.com/file/d/1_RvLe6fLb7orRL9ZDQqq0cwgyjbWC8zv/view",
+    "showcase": "https://youtu.be/RMqZ-ZNcnog",
+    "percentToQualify": 100,
+    "password": "No Copy",
+    "records": [
+        {
+            "user": "Tetya_Dovi",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "imasssaya",
+            "link": "https://www.youtube.com/watch?v=RlxQQ6Hw5oI",
+            "percent": 100,
+            "hz": 165
+        }
+
+    ]
+}

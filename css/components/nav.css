@@ -1,7 +1,7 @@
 .nav {
     --color-background: white;
     --color-on-background: black;
-    --color-primary: #48a114;
+    --color-primary: #cbffac;
     --color-on-primary: white;
 
     display: flex;
@@ -51,7 +51,7 @@
     background-color: var(--color-on-primary);
     color: var(--color-primary);
     border-radius: 0.5rem;
-    box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
+    box-shadow: 0 1px 0.5rem 0 rgba(189, 255, 169, 0.5);
     transition: transform 100ms ease;
 }
 .nav .nav__actions .nav__cta:hover:not(:active) {

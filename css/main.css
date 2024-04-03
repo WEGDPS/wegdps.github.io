@@ -3,8 +3,8 @@
     --color-on-background: black;
     --color-background-hover: #eee;
     --color-on-background-hover: black;
-    --color-primary: #052b08;
-    --color-primary-disabled: #084714;
+    --color-primary: #8dff96;
+    --color-primary-disabled: #b5ffc2;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -16,8 +16,8 @@
     --color-on-background: white;
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #0a4d2b;
-    --color-primary-disabled: #0c3f23;
+    --color-primary: #9fffcf;
+    --color-primary-disabled: #9effca;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -28,8 +28,8 @@
     --color-on-background: rgb(255, 255, 255);
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
-    --color-primary: #054e0f;
-    --color-primary-disabled: #054723;
+    --color-primary: #b6ffc0;
+    --color-primary-disabled: #67ffab;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
