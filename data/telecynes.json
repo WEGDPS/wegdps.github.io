@@ -8,8 +8,7 @@
     "showcase": "https://youtu.be/N1BIt05z4Zk",
     "percentToQualify": 57,
     "password": "Нету пароля",
-    "records": [
-        {
+    "records": [{
             "user": "miffie",
             "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
             "percent": 100,
@@ -28,7 +27,7 @@
             "hz": 360
         },
         {
-            "user": "Aisho",
+            "user": "Dobbie",
             "link": "https://www.youtube.com/watch?v=4bCfxlIkunE",
             "percent": 100,
             "hz": 360

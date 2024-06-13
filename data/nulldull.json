@@ -8,19 +8,18 @@
     "showcase": "https://youtu.be/P-RU4aox72E",
     "percentToQualify": 67,
     "password": "000999",
-    "records": [
-        {
-        "user": "Tami",
-        "link": "https://youtu.be/CS_LNBXYoHc",
-        "percent": 100,
-        "hz": 360
+    "records": [{
+            "user": "Tami",
+            "link": "https://youtu.be/CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 360
         },
         {
             "user": "SpaceKZ",
             "link": "https://youtu.be/CS_LNBXYoHc",
             "percent": 100,
             "hz": 360
-            },
+        },
         {
             "user": "NICEPEEK",
             "link": "https://www.youtube.com/watch?v=k762_LLh4wQ",
@@ -36,6 +35,12 @@
         {
             "user": "imasssaya",
             "link": "https://youtu.be/bzrg1Iv_Ecw",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Dobbie",
+            "link": "https://youtu.be/ZVWL-mD8wQg",
             "percent": 100,
             "hz": 240
         }
