@@ -1,0 +1,20 @@
+{
+    "id": 7090824,
+    "name": "Swing Cave",
+    "author": "8989",
+    "creators": ["8989"],
+    "verifier": "8989",
+    "verification": "https://youtu.be/58Rz-3-EQhM",
+    "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+    "percentToQualify": 64,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "miffiewxx",
+            "link": "https://youtu.be/58Rz-3-EQhM",
+            "percent": 100,
+            "hz": 432
+        }
+    
+    ]
+}

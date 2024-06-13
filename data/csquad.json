@@ -9,6 +9,12 @@
     "percentToQualify": 50,
     "password": "Нету пароля",
     "records": [        
+        {
+            "user": "miffiewxx",
+            "link": "https://youtu.be/KBnLSZxWi6o",
+            "percent": 100,
+            "hz": 432
+        }
 
     ]
 }
