@@ -26,6 +26,12 @@
             "link": "https://www.youtube.com/watch?v=4vWrmDQTM9g",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "SpaceKZ",
+            "link": "https://youtu.be/CS_LNBXYoHc?si=AxwwR12tYlp0FZo4",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
