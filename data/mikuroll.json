@@ -1,0 +1,17 @@
+{
+    "id": 7091553,
+    "name": "Mikuroll",
+    "author": "Aisho",
+    "creators": ["Aisho"],
+    "verifier": "NICEPEEK",
+    "verification": "https://www.youtube.com/watch?v=49ThQXvEjug",
+    "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc&t=1s",
+    "percentToQualify": 41,
+    "password": "Нету пароля",
+    "records": [{
+        "user": "miffiewxx",
+        "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc&t=1s",
+        "percent": 100,
+        "hz": 432
+    }]
+}
