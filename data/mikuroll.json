@@ -8,10 +8,18 @@
     "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc&t=1s",
     "percentToQualify": 41,
     "password": "Нету пароля",
-    "records": [{
+    "records": [
+    {
+        "user": "Taami",
+        "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc&t=1s",
+        "percent": 100,
+        "hz": 240
+    },
+    {
         "user": "miffiewxx",
         "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc&t=1s",
         "percent": 100,
         "hz": 432
-    }]
+    }
+]
 }
