@@ -1,0 +1,19 @@
+{
+    "id": 7091678,
+    "name": "funny machine",
+    "author": "nixso",
+    "creators": ["nixso"],
+    "verifier": "nixso",
+    "verification": "https://youtu.be/31xiVIw_Uac?si=XLW6ft3rx9h-eWjW",
+    "showcase": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+    "percentToQualify": 55,
+    "password": "Нету пароля",
+    "records": [
+        {
+            "user": "Tami",
+            "link": "https://www.youtube.com/watch?v=CS_LNBXYoHc",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
