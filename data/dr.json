@@ -9,6 +9,11 @@
     "percentToQualify": 43,
     "password": "Нету пароля",
     "records": [
-
+        {
+            "user": "Roam",
+            "link": "https://youtu.be/JeQI3kan018?si=UaI45vbWh8qnv-wb",
+            "percent": 100,
+            "hz": 360
+            }
     ]
 }
